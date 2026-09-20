@@ -6,6 +6,8 @@ Zaid Basheer Al-Zaatreh
 ## Contact
 - Location: Flint, MI, United States
 - Email: zaidzaatrez2004@gmail.com
+- GitHub: https://github.com/ixmecrash
+- LinkedIn: https://www.linkedin.com/in/zaid-alzaatreh/
 
 ## Professional Summary
 Software Engineering student at the University of Michigan-Flint with experience in student engagement, event coordination, customer-facing communication, and programming. Interested in AI, software development, and helping students discover practical ways to use emerging technology. Experienced in organizing campus activities, communicating with diverse audiences, and turning ideas into engaging student experiences.
