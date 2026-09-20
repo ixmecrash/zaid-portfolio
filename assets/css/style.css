@@ -1895,3 +1895,32 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar { width: 275px; min-width: 0; flex-shrink: 0; }
   .sidebar:not(.active) .sidebar-info_more { display: block; }
 }
+
+/* Contact actions and location. */
+.contact-details { display: grid; gap: 24px; max-width: 460px; }
+.contact-email-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  min-height: 48px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+  font-weight: var(--fw-500);
+}
+.contact-email-button:hover { background: var(--vegas-gold); }
+.contact-email-button:focus-visible { outline: 2px solid var(--white-2); outline-offset: 4px; }
+.contact-location-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  background: var(--eerie-black-1);
+}
+.contact-location-card > svg { color: var(--orange-yellow-crayola); flex-shrink: 0; }
+.contact-location-card p { color: var(--light-gray); font-size: var(--fs-6); margin-top: 6px; }
