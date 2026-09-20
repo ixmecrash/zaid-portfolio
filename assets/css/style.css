@@ -1924,3 +1924,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 .contact-location-card > svg { color: var(--orange-yellow-crayola); flex-shrink: 0; }
 .contact-location-card p { color: var(--light-gray); font-size: var(--fs-6); margin-top: 6px; }
+
+/* Keep education details easy to scan. */
+.education-degree { text-transform: none; }
+.coursework-title { margin-top: 18px; margin-bottom: 8px; }
+.coursework-list { padding-left: 20px; }
+.coursework-list > li { list-style: disc; }
+.coursework-list > li + li { margin-top: 4px; }
+
+.education-date { display: inline; color: var(--vegas-gold); }

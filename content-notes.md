@@ -1,7 +1,7 @@
 # Portfolio Content Notes
 
 ## Name
-Zaid Basheer Al-Zaatreh
+Zaid Alzaatreh
 
 ## Contact
 - Location: Flint, MI, United States
@@ -18,6 +18,7 @@ University of Michigan-Flint
 Expected 2028
 
 Relevant Coursework:
+- Problem Solving and Programming I and II
 - Data Structures
 - Software Architecture & Design
 - Software Engineering
