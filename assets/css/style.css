@@ -834,6 +834,8 @@ main {
  * skills 
  */
 
+.skill { margin-bottom: 30px; }
+
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
@@ -1880,3 +1882,54 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+/* Personalized identity and contact details. */
+.avatar-box { flex-shrink: 0; }
+.avatar-initials { display: grid; place-items: center; width: 80px; height: 80px; color: var(--orange-yellow-crayola); font-size: 28px; }
+.info-content { min-width: 0; }
+.info-content .name { white-space: normal; }
+.info-content .title { width: fit-content; max-width: 100%; }
+.sidebar { max-height: none; }
+.sidebar:not(.active) .sidebar-info_more { display: none; }
+.email-link { color: var(--orange-yellow-crayola); text-decoration: underline; overflow-wrap: anywhere; }
+@media (min-width: 1250px) {
+  .sidebar { width: 275px; min-width: 0; flex-shrink: 0; }
+  .sidebar:not(.active) .sidebar-info_more { display: block; }
+}
+
+/* Contact actions and location. */
+.contact-details { display: grid; gap: 24px; max-width: 460px; }
+.contact-email-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  min-height: 48px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+  font-weight: var(--fw-500);
+}
+.contact-email-button:hover { background: var(--vegas-gold); }
+.contact-email-button:focus-visible { outline: 2px solid var(--white-2); outline-offset: 4px; }
+.contact-location-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px;
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  background: var(--eerie-black-1);
+}
+.contact-location-card > svg { color: var(--orange-yellow-crayola); flex-shrink: 0; }
+.contact-location-card p { color: var(--light-gray); font-size: var(--fs-6); margin-top: 6px; }
+
+/* Keep education details easy to scan. */
+.education-degree { text-transform: none; }
+.coursework-title { margin-top: 18px; margin-bottom: 8px; }
+.coursework-list { padding-left: 20px; }
+.coursework-list > li { list-style: disc; }
+.coursework-list > li + li { margin-top: 4px; }
+
+.education-date { display: inline; color: var(--vegas-gold); }
