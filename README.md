@@ -1,44 +1,52 @@
-# vCard - Personal portfolio
+# Zaid Alzaatreh — Personal Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+This repository contains my personal portfolio website created as part of my SWE 380 GitHub + AI Engineering Practice assignment at the University of Michigan-Flint.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+The portfolio presents my education, experience, technical skills, and projects in a responsive website built with HTML, CSS, and JavaScript.
 
-## Demo
+## Live Website
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+The portfolio is deployed using GitHub Pages:
 
-## Prerequisites
+https://ixmecrash.github.io/zaid-portfolio/
 
-Before you begin, ensure you have met the following requirements:
+## Portfolio Content
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+The website includes:
 
-## Installing vCard
+- About Me
+- Education and coursework
+- Experience
+- Technical skills
+- Campus Event Planner project
+- Contact information and professional links
 
-To install **vCard**, follow these steps:
+## Technologies
 
-Linux and macOS:
+- HTML
+- CSS
+- JavaScript
+- Git and GitHub
+- GitHub Pages
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+## AI-Assisted Development
 
-Windows:
+AI was used to help inspect the existing portfolio template, propose an implementation plan, and assist with selected content, layout, accessibility, and JavaScript changes.
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+All AI-assisted changes were reviewed and tested before being merged.
 
-## Contact
+## Project Status
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+The portfolio is deployed and publicly available through GitHub Pages.
+
+The Campus Event Planner featured in the portfolio is still under development and currently runs locally. A public project link will be added once it is ready to be published and deployed.
+
+## Attribution
+
+This portfolio is based on the open-source [vCard Personal Portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) template by codewithsadee.
+
+The original MIT license and attribution have been preserved.
 
 ## License
 
-MIT
+This project retains the MIT License from the original vCard Personal Portfolio template.
